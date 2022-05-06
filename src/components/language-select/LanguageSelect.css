@@ -1,0 +1,51 @@
+.hdr_top_right_site_lang{
+    width: 70px;
+    height: 25px;
+    padding: 2px 8px 2px 4px;
+    border: 0.1px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 8px;
+    position: relative;
+    padding-right: 20px;
+}
+
+.site_lang{
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+
+.site_lang::before{
+    width: 10px;
+    height: 10px;
+    /* content: '˅'; */
+    content: '';
+    position:absolute;
+    top:0;
+    right: -15px;
+    color: #fff;
+}
+
+.site_lang_globe_icon{
+    color: #fff;
+    margin-top: 3px;
+}
+
+.languages{
+    width: 70px;
+    height: 25px;
+    background-color: #FBC100;
+    border: 0.1px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 24px;
+    left: 0;
+}
+
+

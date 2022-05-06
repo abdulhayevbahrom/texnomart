@@ -1,0 +1,117 @@
+.newProducts{
+    width: 100%;
+    height: auto;
+    padding: 0 24px;
+    margin: 0 0 40px;
+}
+
+.newProductsCaption{
+    display:flex;
+    justify-content: space-between;
+    height: 26px;
+    margin-bottom: 24px; 
+    color: #333333;   
+}
+
+.newProductsCaption h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+}
+
+
+.newProductsWrapper{
+    display:flex ;
+    overflow: auto;
+    background-color: #fff;
+}
+
+.newProductsItem{
+    position: relative;
+    width: 234px;
+    height: 327px;
+    padding: 15px 16px 0;
+    color: #333333;
+    border-right: 1px solid #ececec;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.newProductsWrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.product_new_stick{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    color: #fec20f;
+    border-radius: 4px;    
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #333;
+    padding: 2px 9px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Pimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 184px;
+    height: 160px;
+    background-color:#fff;
+}
+
+.productImg{
+    width: 184px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.product_name{
+    color: #373f41;
+    font: 14px Roboto , sans-serif 500;
+    margin:  0 0 16px;
+}
+
+.product_price{
+    font-weight: 700;
+}
+
+.product_btns{
+    width: 100%;
+    height: 38px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toTheBasket{
+    background-color:#FBC100;       
+    border: none;
+    height: 38px;
+    width: 125px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.toTheBasket:hover{
+    background-color: #ffcc00;
+}
+
+.toTheBasket img{
+    margin-right: 10px;
+}
+

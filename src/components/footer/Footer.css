@@ -1,0 +1,134 @@
+.footer{
+    width: 100%;
+    height: 460px;
+    background-color: #333333;
+    padding: 54px 24px 24px;
+    color: #fff;
+}
+
+.footer ul li{
+    list-style-type: none;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer_top_sociallNetwork{
+    width: 383px;
+    height: 284px;
+    padding: 0 0 16px;
+    margin:  0 0 24px;
+}
+
+.phone1, .phone2{
+    width: 100%;
+    height: 59px;
+    margin: 0 0 20px;
+    cursor: pointer;
+}
+
+.phone1 p, .phone2 p{
+    font-size: 13px;
+    margin: 0 0 13px;
+}
+
+.phone1 a, .phone2 a{
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.footer_network{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin: 40px 0 30px;
+
+}
+
+.footer_network_item{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #545454;
+    border-radius: 7px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.footer_network_item svg{
+    font-size: 22px;
+}
+
+.footer_network_item a{
+    color: #fff;
+    font-size: 25px;
+}
+
+.locationTosh{
+    color: #f7f7f7;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+.locationTosh:hover{
+    border-bottom: none;
+}
+
+
+.footer_top_links{
+    display: flex;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.footer_top_links ul h3{
+    font-size: 19px;
+}
+
+.footer_top_links ul li{
+    font-size: 14px;
+    height: 30px;
+
+}
+
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #666;
+    padding: 24px 0 0 ;
+}
+
+.footer_bottom_left p{
+    font-size: 13px;
+    width: 600px;
+    color: #ebe9e9;
+}
+
+.footer_right{
+    display: flex;
+    width: 310px;
+    justify-content: space-between;
+}
+
+.footer_right_item{
+    height: 28px;
+    width: 57px;
+}
+
+.footer_right_item img{
+    height: 100%;
+    width: 100%;
+}
+

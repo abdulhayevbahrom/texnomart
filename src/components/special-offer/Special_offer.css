@@ -1,0 +1,44 @@
+.special_offer{
+    width: 100%;
+    height: 86px;
+    margin: 0 0 45px;
+    padding: 0 0 0 24px;
+}
+
+.special_offer_wrapper{
+    width: auto;
+    height: 86px;
+    display: flex;
+    overflow: auto;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.special_offer_wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.special_offer_wrap_item{
+    display: flex;
+    align-items: center;
+    width: 245px;
+    height: 86px;
+    background-color: #f7f7f7;
+    margin:0 20px 0 0 ;
+    padding: 0 24px;
+    padding-right: 80px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.special_offer_wrap_item img{
+    padding-right: 24px;
+}
+
+.offerItemLInk{
+    color: #333333;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
